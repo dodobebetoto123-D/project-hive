@@ -52,6 +52,7 @@ python -m hive "이 보고서 3줄로 요약해줘"
 ## 인텐트 분류기 학습
 
 - 학습 데이터: `training/hive_typed_decisions.jsonl` (한국어 598 케이스, 11개 작업 종류 × 3단계 복잡도)
+  → [Google Drive에서 다운로드](https://drive.google.com/file/d/1n6HOmBc-QASP6YgseINcxGSl-tlJE0FS/view?usp=drivesdk) (용량 문제로 레포에 직접 포함하지 않음)
 - 학습 노트북: `training/hive_finetune_colab.ipynb` (Laya-multilingual 파인튜닝, Colab T4)
 - 검증 정확도: 작업 종류 78.0% / 복잡도 74.6% (59 케이스)
 - 체크포인트(`hive_intent_laya/`, 약 1.1GB)는 용량 문제로 레포에 포함하지 않음.
